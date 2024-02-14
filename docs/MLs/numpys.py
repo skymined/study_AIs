@@ -37,3 +37,12 @@ np.concatenate((np_array, np_array_second), axis=1)
 # array([[ 7,  8,  1,  2],
 #        [ 9, 10,  3,  4],
 #        [11, 12,  5,  6]])
+
+# reshape() : 재배열
+# 1차원 배열 생성
+arr = np.arange(10)
+print("원본 1차원 배열:")
+print(arr)
+pass
+
+arr.reshape(-1,2)
